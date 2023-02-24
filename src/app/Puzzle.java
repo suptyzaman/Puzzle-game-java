@@ -46,6 +46,18 @@ public class Puzzle extends JFrame implements ActionListener {
       b8.setFont(new Font("Arial", Font.PLAIN, 40));
       b9.setFont(new Font("Arial", Font.PLAIN, 40));
       next.setFont(new Font("Arial", Font.PLAIN, 20));
+        
+      b1.setBackground(Color.green);
+      b2.setBackground(Color.green);
+      b3.setBackground(Color.green);
+      b4.setBackground(Color.green);
+      b5.setBackground(Color.green);
+      b6.setBackground(Color.green);
+      b7.setBackground(Color.green);
+      b8.setBackground(Color.green);
+      b9.setBackground(Color.red);
+      next.setBackground(Color.YELLOW);
+      next.setForeground(Color.red);
 
       //b9.setBackground(Color.green);
 
